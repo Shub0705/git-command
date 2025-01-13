@@ -1,0 +1,23 @@
+--------git all command--------
+git clone and (ssh the repo)
+ssh-keygen ---copy .pug file and add goto setting ans ssh and gpg key past the key
+git clone and http
+cd (repo name)
+git add (file name)
+git status 
+git commit -m "any mass"
+git push
+
+-----------------------------------------
+to create branch 
+
+git checkout -b (any name)
+git checkout (remo name that you want to go)
+git push -u origin (branch name)
+
+-------extra------
+commands.
+    - git checkout -b  -> to create branch 
+      git checkout    -> to switch branch  
+      git branch -a   -> to list all the branches
+      git branch   -> to check present/ working branch
