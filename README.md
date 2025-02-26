@@ -1,2 +1,3 @@
-# git-command
-this is for practice
+# Git-command
+this is for practice,
+revision any time 
