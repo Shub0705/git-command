@@ -19,6 +19,10 @@ reset, revert , restore, fetch
 
                             Command : git reset --hard <commit-id>
                             Example : git reset --hard adb43n3
+
+                    c) defauld reset : git reset <id> 
+                                      The default reset will just revert the commit up to the given commmit id and it will move the 
+                                      file from commit stage to working directory area.
                             
 
 2. git revert : this command is used when we want to discard our changes but it will not move the files from commit to staging
