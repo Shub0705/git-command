@@ -49,12 +49,13 @@ reset, revert , restore, fetch
                The stash's meaning is "store meaning safely in a hidden place." The sense in Git is the same for stash. Git  temporarily
                saves your data safely without commiting.
 
+                         Ex : git stash push <filename> -m "commit" ------> to push in to stash
                Command : 
                         a) git stash : it will automatically moves the uncommited files to stash.
                         b) git stash list : it will show all the stashed files
                         c) git stash pop : git stash pop applies the top stashed element and removes it from the stack
                         d) git stash pop <index-name> : this command will pops one file from multiple stashed files using index.
-                                Ex : git stash pop 1
+                                Ex : git stash pop <index number> 
 
 
 
@@ -90,3 +91,4 @@ reset, revert , restore, fetch
 9. The two primary branches in Git flow are main and develop. There are three types of supporting branches with different intended 
 
     purposes: feature, release, and hotfix.
+
