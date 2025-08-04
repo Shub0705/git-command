@@ -34,7 +34,7 @@ reset, revert , restore, fetch
                   
 
                     Command : git restore --staged <file-name>
-                    Example : git revert --staged file1.txt
+                    Example : git restore --staged file1.txt
 
 
 
@@ -88,4 +88,5 @@ reset, revert , restore, fetch
 
 
 9. The two primary branches in Git flow are main and develop. There are three types of supporting branches with different intended 
+
     purposes: feature, release, and hotfix.
